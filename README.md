@@ -15,6 +15,7 @@
 - Account Created: ✅ Yes
 
 ### Challenges Faced
+- npm warn deprecated glob@7.2.3: Glob versions 
 -  Slow network during download
 - Needed to clear Play Store cache to install Expo Go
 
