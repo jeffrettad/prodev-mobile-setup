@@ -1,54 +1,57 @@
-import {StyleSheet} from "react-native";
+import { StyleSheet } from "react-native";
+
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        padding:20,
-        backgroundColor:'#fff',
-        position: 'relative'
-
-    },
-    navGroup: {
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        marginBottom: 20,
-        marginTop: 11
-    },
-    largeText: {
-        fontSize: 40,
-        fontWeight: 700,
-
-    },
-    smallText: {
-        fontSize: 18,
-        color: '#7E7B7B',
-        marginBottom: 7
-    },
-    inputField: {
-        borderWidth: 1,
-        borderRadius: 10,
-        height: 50,
-        borderColor: '#7E7B7B',
-        paddingHorizontal: 10
-    },
-    passwordGroup:{
-        flexDirection: 'row',
-        borderWidth: 1,
-        alignItems: 'center',
-        height: 50,
-        borderRadius: 10,
-        paddingHorizontal: 10,
-        borderColor: '#7e7b7b'
-    },
-    formGroup: {
-        marginTop: 44
-    },
-    forgotPasswordText: {
-        fontSize: 17,
-        marginTop: 9,
-        textAlign: 'right',
-        color: '#34967C'
-    },
-     button: {
+  container: {
+    flex: 1,
+    padding: 20,
+    backgroundColor: '#fff',
+    position: 'relative'
+  },
+  navGroup: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 20,
+    marginTop: 11
+  },
+  largeText: {
+    fontSize: 40,
+    fontWeight: 700,
+  },
+  smallText: {
+    fontSize: 12,
+    color: '#7E7B7B'
+  },
+  placeholderText: {
+    fontSize: 18,
+    color: '#7E7B7B',
+    marginBottom: 7
+  },
+  inputField: {
+    borderWidth: 1,
+    borderRadius: 10,
+    height: 50,
+    borderColor: '#7E7B7B',
+    paddingHorizontal: 10
+  },
+  passwordGroup: {
+    flexDirection: 'row',
+    borderWidth: 1,
+    alignItems: 'center',
+    height: 50,
+    borderRadius: 10,
+    paddingHorizontal: 10,
+    borderColor: '#7e7b7b'
+  },
+  formGroup: {
+    marginTop: 44
+  },
+  forgotPasswordText: {
+    fontSize: 17,
+    marginTop: 9,
+    textAlign: 'right',
+    color: '#34967C'
+  },
+  button: {
     backgroundColor: '#2B876E',
     height: 53,
     borderRadius: 10,
@@ -56,7 +59,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center'
   },
-   buttonText: {
+  buttonText: {
     fontSize: 17,
     color: 'white'
   },
@@ -110,7 +113,6 @@ const styles = StyleSheet.create({
 });
 
 
-
-    export {
+export {
   styles
 }
